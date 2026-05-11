@@ -16,5 +16,5 @@ public class MeargeSorted {
             nums1[k--] = nums2[j--];
         }
     }
-
 }
+
