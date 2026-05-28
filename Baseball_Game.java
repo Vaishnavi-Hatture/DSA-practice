@@ -21,7 +21,7 @@ class Solution {
             }
         }
 
-        int sum = 0;
+        int sum =0 ;
 
         for (int num : list) {
             sum += num;
