@@ -13,18 +13,18 @@ class Solution {
             }
         }
 
-        List<Boolean> result = new ArrayList<>();
+        List<Boolean> res = new ArrayList<>();
 
       
         for(int i = 0; i < candies.length; i++) {
 
             if(candies[i] + extraCandies >= max) {
-                result.add(true);
+                res.add(true);
             } else {
-                result.add(false);
+                res.add(false);
             }
         }
 
-        return result;
+        return res;
     }
 }
