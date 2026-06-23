@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+class Baseball_Game {
     public int calPoints(String[] operations) {
         ArrayList<Integer> list = new ArrayList<>();
 
