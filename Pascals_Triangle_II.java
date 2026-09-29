@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pascals_Triangle_II {
-    public List<Integer> getRow(int rowIndex) {
+    public List<Integer> getRow(int rowI) {
         List< List<Integer> > ans = new ArrayList<>();
-        int n = rowIndex+1;
+        int n = rowI+1;
         for(int i=0 ; i<n ; i++){
             ans.add(new ArrayList<Integer>());
 
@@ -19,7 +19,7 @@ public class Pascals_Triangle_II {
                 }
             }
         }
-        return ans.get(rowIndex);
+        return ans.get(rowI);
     }
 
 }
